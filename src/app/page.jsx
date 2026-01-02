@@ -6,7 +6,7 @@ import Products from "./products/page";
 import Comment from "./Components/Comment";
 import Offer from "./Components/Offer";
 import Videos from "./Components/Videos";
-import BookNow from "./bookNow/page";
+import BookNow from "./dashboard/bookNow/page";
 import Brands from "./Components/Brands";
 import Article from "./Components/Aricle";
 import Subscribe from "./Components/Subscribe";

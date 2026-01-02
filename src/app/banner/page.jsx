@@ -7,22 +7,22 @@ const Banner = () => {
     {
       title: "Nail Manicure",
       description: "Professional manicure care for perfect nails.",
-      img: "https://i.ibb.co/jk48tWvn/example.jpg",
+      img: "https://i.ibb.co.com/JwccX8q9/Nail-Manicure.jpg",
     },
     {
       title: "Lip Care",
       description: "Smooth, glossy, and hydrated lips with expert care.",
-      img: "https://i.ibb.co/Jj13nM8M/example.jpg",
+      img: "https://i.ibb.co.com/0RjmmRW7/bigstock-205572793.jpg",
     },
     {
       title: "Party Makeup",
       description: "Enhance your beauty for any party or event.",
-      img: "https://i.ibb.co/pB9tKTfK/example.jpg",
+      img: "https://i.ibb.co.com/9Hrpt6Pv/istockphoto-518203028-1024x1024.jpg",
     },
     {
       title: "Bride Groom",
       description: "Special bridal & groom makeover packages.",
-      img: "https://i.ibb.co/7JNxXhwq/example.jpg",
+      img: "https://i.ibb.co.com/rRY8Sh9P/istockphoto-2148384904-1024x1024.jpg",
     },
   ];
 

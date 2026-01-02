@@ -1,6 +1,16 @@
+"use client";
+
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const BookNow = () => {
+  const router = useRouter();
+  const handleBookNow = () => {
+    const password = prompt("Enter your password");
+    if (password == 1234) {
+      router.push("/dashboard");
+    }
+  };
   return (
     <div className="w-full bg-[#F8E8DF] py-10 md:py-20 flex flex-col md:flex-row relative">
       {/* Left Image (mobile = full width, desktop = 45%) */}
@@ -35,7 +45,10 @@ const BookNow = () => {
         </p>
 
         <div className="flex justify-center md:justify-start">
-          <button className="bg-black text-white px-6 sm:px-8 py-2 sm:py-3 rounded-md hover:bg-gray-800 duration-300 text-sm sm:text-base">
+          <button
+            onClick={handleBookNow}
+            className="bg-black text-white px-6 sm:px-8 py-2 sm:py-3 rounded-md hover:bg-gray-800 duration-300 text-sm sm:text-base"
+          >
             Book now →
           </button>
         </div>
