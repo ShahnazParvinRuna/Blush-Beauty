@@ -1,9 +1,10 @@
-"use client";
+// export const dynamic = "force-dynamic";
+
+("use client");
 import React, { useState } from "react";
 import Link from "next/link";
 import Title from "../Components/Title";
 import services from "@/data/services";
-
 
 const Search = () => {
   const [query, setQuery] = useState("");
