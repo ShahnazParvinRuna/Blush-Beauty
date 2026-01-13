@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
+import SessionProviderWrapper from "@/providers/SessionProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Blush By Beauty",
-  description: "To impelement a beauty parlor site",
+  description: "To implement a beauty parlor site",
 };
 
 export default function RootLayout({ children }) {
@@ -24,12 +25,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header></Header>
-        <Navbar></Navbar>
-        <main>
-          {children}
-
-        </main>
+        {/* ✅ শুধু এই wrapper যোগ হয়েছে */}
+        <SessionProviderWrapper>
+          <Header />
+          <Navbar />
+          <main>{children}</main>
+        </SessionProviderWrapper>
       </body>
     </html>
   );

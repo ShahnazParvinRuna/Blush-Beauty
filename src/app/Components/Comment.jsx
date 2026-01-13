@@ -9,28 +9,28 @@ const testimonials = [
   {
     name: "Sophia Williams",
     role: "Regular Customer",
-    img: "https://via.placeholder.com/60",
+    // img: "https://via.placeholder.com/60",
     review:
       "Amazing work! Beautiful finish and elegant style. Highly recommended!"
   },
   {
     name: "Emily Carter",
     role: "Client",
-    img: "https://via.placeholder.com/60",
+    // img: "https://via.placeholder.com/60",
     review:
       "The service was professional, clean, and comforting. Loved the design!"
   },
   {
     name: "Lina Gomez",
     role: "Happy Customer",
-    img: "https://via.placeholder.com/60",
+    // img: "https://via.placeholder.com/60",
     review:
       "Perfect nail art! Smooth texture and lasts long. Definitely coming again."
   },
   {
     name: "Ava Johnson",
     role: "Customer",
-    img: "https://via.placeholder.com/60",
+    // img: "https://via.placeholder.com/60",
     review:
       "Great quality and friendly service. My nails never looked better!"
   },

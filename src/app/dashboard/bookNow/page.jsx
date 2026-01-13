@@ -23,14 +23,7 @@ const BookNow = () => {
       </div>
 
       {/* Card */}
-      <div
-        className="
-        bg-white shadow-xl rounded-xl p-8 sm:p-10 md:p-14
-        w-[90%] sm:w-[80%] md:max-w-xl
-        mx-auto
-        md:absolute md:top-3/4 md:right-50 md:-translate-y-2/3
-      "
-      >
+      <div className="bg-white shadow-xl rounded-xl p-8 sm:p-10 md:p-14 w-[90%] sm:w-[80%] md:w-[70%]">
         <p className="text-[#b08a71] italic tracking-widest text-sm mb-2 text-center md:text-left">
           appointment
         </p>

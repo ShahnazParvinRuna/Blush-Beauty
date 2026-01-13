@@ -5,37 +5,37 @@ const services = [
     name: "REGULAR MANICURE",
     desc: "In nec faucibus sem, eu accumsan massa",
     price: "$12",
-    img: "https://via.placeholder.com/60",
+    // img: "https://via.placeholder.com/60",
   },
   {
     name: "NAIL EXTENTION",
     desc: "Interdum et malesuada fames ac ante ipsum primis",
     price: "$32",
-    img: "https://via.placeholder.com/60",
+    // img: "https://via.placeholder.com/60",
   },
   {
     name: "PEDICURE",
     desc: "Maecenas euismod risus vitae tempus egestas",
     price: "$14",
-    img: "https://via.placeholder.com/60",
+    // img: "https://via.placeholder.com/60",
   },
   {
     name: "SKIN RECOVERY",
     desc: "Fusce id leo nec eros laoreet pretium ut nec tellus",
     price: "$16",
-    img: "https://via.placeholder.com/60",
+    // img: "https://via.placeholder.com/60",
   },
   {
     name: "SKIN RECOVERY",
     desc: "Fusce id leo nec eros laoreet pretium ut nec tellus",
     price: "$16",
-    img: "https://via.placeholder.com/60",
+    // img: "https://via.placeholder.com/60",
   },
   {
     name: "SKIN RECOVERY",
     desc: "Fusce id leo nec eros laoreet pretium ut nec tellus",
     price: "$16",
-    img: "https://via.placeholder.com/60",
+  //   img: "https://via.placeholder.com/60",
   },
 ];
 

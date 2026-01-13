@@ -31,31 +31,11 @@ const Pedicure = () => {
         Our Pedicure Services
       </h2>
 
-      <div className="
-        grid 
-        grid-cols-1 
-        sm:grid-cols-2 
-        lg:grid-cols-4 
-        gap-10
-        place-items-center
-      ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 pl-4">
         {items.map((item, i) => (
           <div
             key={i}
-            className="
-              bg-white 
-              shadow-lg 
-              rounded-xl 
-              p-6 
-              text-center 
-              hover:shadow-2xl 
-              hover:-translate-y-2 
-              duration-300 
-              w-full
-              sm:w-[80%]
-              md:w-[90%]
-              lg:w-full
-            "
+            className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-xl"
           >
             <img
               className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full object-cover mb-4 "
